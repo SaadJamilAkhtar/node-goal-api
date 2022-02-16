@@ -1,29 +1,30 @@
+const asyncHandler = require('express-async-handler')
 // @desc    Get Goals
 // @route   GET /api/goals
 // @access  Private
-const getGoals = (req, res) => {
+const getGoals = asyncHandler(async (req, res) => {
 
-}
+})
 
 // @desc    Add Goals
 // @route   POST /api/goals
 // @access  Private
-const postGoal = (req, res) => {
+const postGoal = asyncHandler(async (req, res) => {
 
-}
+})
 
 // @desc    Update Goals
 // @route   PUT /api/goals/{id}
 // @access  Private
-const updateGoal = (req, res) => {
+const updateGoal = asyncHandler(async (req, res) => {
 
-}
+})
 
 // @desc    Delete Goals
 // @route   DELETE /api/goals/{id}
 // @access  Private
-const delGoal = (req, res) => {
+const delGoal = asyncHandler(async (req, res) => {
 
-}
+})
 
 module.exports = {getGoals, postGoal, updateGoal, delGoal}
