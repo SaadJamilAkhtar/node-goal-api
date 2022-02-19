@@ -19,3 +19,4 @@ Backend API of MERN stack Goal Tracker App
 1. NODE_ENV
 2. PORT
 3. MONGO_URI
+4. JWT_SECRET
