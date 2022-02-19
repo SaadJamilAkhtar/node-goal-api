@@ -9,9 +9,11 @@ Backend API of MERN stack Goal Tracker App
 1. install node js
 2. install packages using  
 `npm install`
-3. create env variables
+3. create a .env file in base directory
+   1. create env variables  
+   Details mentioned Below
 4. run file using command  
-`node filename.js`
+`npm start`
 
 ## Required ENV variables:
 1. NODE_ENV
